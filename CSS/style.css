@@ -1,0 +1,126 @@
+/* Body Style*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/HEX-CAL/IMG/deskbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #6f4c2c;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Title */
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+  color: #edeae6;
+  margin: 80px 0 20px 0;
+  text-align: center;
+}
+
+/* CALCULATOR */
+.calculator {
+  width: 340px;
+  padding: 28px;
+  border-radius: 22px;
+  background-image: url("/HEX-CAL/IMG/calculator.png");
+  transform: rotateX(8deg) rotateY(-8deg);
+  box-shadow: 
+    25px 20px 35px rgba(0, 0, 0, 0.548),
+    inset 0 -4px 8px rgba(0, 0, 0, 0.18);
+}
+
+/* Display */
+#display {
+  width: 95%;
+  height: 70px;
+  font-size: 28px;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 15px;
+  background: rgb(51, 44, 44);
+  color: whitesmoke;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.buttons div {
+  background: transparent;
+}
+
+/* BUTTON STYLE */
+button {
+  height: 50px;
+  font-size: 22px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: 0.15s ease;
+  font-weight: 500;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow:
+    0 2px 0 #6f4c2c,
+    0 3px 5px rgba(0,0,0,0.2);
+}
+
+/* BUTTONS */
+
+.num {   
+  background: #e1bd9a; 
+  color: #2a2016;
+  box-shadow:
+    0 4px 0 #946941,          
+    0 6px 10px rgba(0,0,0,0.25); 
+}
+
+
+.hex {  
+  background: #d7a270; 
+  color: #2a2016;
+  font-weight: bold;
+  box-shadow:
+    0 4px 0 #946941,          
+    0 6px 10px rgba(0,0,0,0.25); 
+}
+
+
+button.op {
+  background: #eda554;
+  box-shadow:
+    0 4px 0 #7c5b3a,
+    0 6px 10px rgba(0,0,0,0.25);
+}
+
+
+button.func {
+  background: #e4c58d;
+  box-shadow:
+    0 4px 0 #8b6a3e,
+    0 6px 10px rgba(0,0,0,0.23);
+}
+
+
+button.equal {
+  background: #c9792c;
+  color: white;
+  font-weight: 700;
+  box-shadow:
+    0 4px 0 #7a5735,
+    0 6px 10px rgba(0,0,0,0.25);
+}

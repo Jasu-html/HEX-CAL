@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hexadecimal Calculator</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+<div class="calculator">
+  <input type="text" id="display" readonly>
+
+  <div class="buttons">
+    <!-- Calculator rows -->
+
+    <!-- 1 -->
+    <button class="num hex">A</button>
+    <button class="num">1</button>
+    <button class="num">2</button>
+    <button class="num">3</button>
+    <button class="func">AC</button>
+    <!-- 2 -->
+    <button class="num hex">B</button>
+    <button class="num">4</button>
+    <button class="num">5</button>
+    <button class="num">6</button>
+    <button class="func">C</button>
+    <!-- 3 -->
+    <button class="num hex">C</button>
+    <button class="num">7</button>
+    <button class="num">8</button>
+    <button class="num">9</button>
+    <button class="op">+</button>
+    <!-- 4 -->
+    <button class="num hex">D</button>
+    <button class="num hex">E</button>
+    <button class="num hex">F</button>
+    <button class="num">0</button>
+    <button class="equal">=</button>
+  </div>
+</div>
+
+  <!-- Sound Epeks -->
+    <audio id="sfx-click" src="SFX/click.wav" preload="auto"></audio>
+    <audio id="sfx-equals" src="SFX/beep.wav" preload="auto"></audio>
+    <audio id="sfx-error" src="SFX/pop.wav" preload="auto"></audio>
+
+<script src="/HEX-CAL/JS/script.js"></script>
+</body>
+</html>
