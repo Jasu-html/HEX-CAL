@@ -1,6 +1,6 @@
 # 📱 Hexadecimal Addition Calculator 🔢
 
-A simple, interactive calculator built with **HTML**, **CSS**, and **JavaScript**, specifically designed to perform **hexadecimal addition**. This project allows you to add numbers in **base 16** easily, converting between hexadecimal and decimal internally, while providing a clean and responsive interface.
+A simple, interactive calculator built with **HTML**, **CSS**, and **JavaScript**, specifically designed to perform **hexadecimal addition**. This project allows you to add numbers in **base 16** easily, while providing a clean and responsive interface.
 
 ---
 
